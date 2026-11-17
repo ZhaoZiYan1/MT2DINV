@@ -145,9 +145,8 @@
 
 &nbsp; MT2DINV/
 
-├── 1D/                                          # 1D inversion implementations
-
-│   ├── FCNN/                                # Fully Connected Neural Network implementation
+├── Train/                                      # Network training, prediction, and evaluation
+│   ├── Mamba.py                                # Core implementation of the selective state-space model
 
 
 
