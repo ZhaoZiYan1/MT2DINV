@@ -145,44 +145,44 @@
 
 &nbsp; MT2DINV/
 
-│
-├── Train/                                      # Network training, prediction, and evaluation
-│   │
-│   ├── Mamba.py                                # Core implementation of the selective state-space model
-│   ├── Mamba_MT2D_Inversion.py                 # Mamba-based 2D MT inversion network architecture
-│   ├── Mamba_MT2D_Train.py                     # Mamba network training script
-│   ├── Mamba_MT2D_Predicted.py                 # Mamba network prediction and inversion visualization
-│   │
-│   ├── Mamba_MT2D_ModeTrain.py                 # Mamba training with different input modes (TE, TM, and TE+TM)
-│   ├── Mamba_MT2D_ModePredicted.py             # Inversion evaluation under different input modes
-│   │
-│   ├── Mamba_MT2D_NoisyTrain.py                # Mamba network training with noisy MT data
-│   ├── Mamba_MT2D_NoisyPredicted.py            # Inversion evaluation under noisy conditions
-│   │
-│   ├── Trans_MT2D_Inversion.py                 # Transformer-based 2D MT inversion network architecture
-│   ├── Trans_MT2D_Train.py                     # Transformer network training script
-│   ├── Trans_MT2D_Predicted.py                 # Transformer network prediction and inversion visualization
-│   │
-│   ├── UNet_MT2D_Inversion.py                  # U-Net-based 2D MT inversion network architecture
-│   ├── UNet_MT2D_Train.py                      # U-Net network training script
-│   ├── UNet_MT2D_Predicted.py                  # U-Net network prediction and inversion visualization
-│   │
-│   ├── SSIM_Distribution_Plot.py               # SSIM distribution comparison of three networks
-│   ├── Export_SSIM_Advantage_Excel.py          # Export ranked SSIM advantages of Mamba to Excel
-│   └── Utilities.py                            # Data loading and normalization utilities
-│
-├── Training_dataset/                          # Synthetic dataset generation and forward modeling
-│   │
-│   ├── Gaussian_Random_Fields.py               # Gaussian random field generation for 2D resistivity models
-│   ├── MT2D_FDM.py                             # 2D MT finite-difference forward modeling
-│   ├── MT2D_Model.py                           # 2D MT forward modeling and parallel computation
-│   ├── Generate_Noisy_Dataset.py               # Noisy dataset generation for TM-mode observations
-│   ├── Validate_Classic_1D_Models.py           # Validation of 2D FDM against 1D analytical solutions
-│   ├── MT_Validation_1DForward.m               # Visualization of H-type and K-type model validation
-│   ├── Model_Plot.py                           # Visualization of resistivity models and MT responses
-│   └── Draw_2D_ResistivityModel.m              # Export resistivity models to Tecplot format
-│
-└── README.md                                    # Project description and user guide
+&nbsp;   │
+&nbsp;   ├── Train/                                      # Network training, prediction, and evaluation
+&nbsp;   │   │
+&nbsp;   │   ├── Mamba.py                                # Core implementation of the selective state-space model
+&nbsp;   │   ├── Mamba_MT2D_Inversion.py                 # Mamba-based 2D MT inversion network architecture
+&nbsp;   │   ├── Mamba_MT2D_Train.py                     # Mamba network training script
+&nbsp;   │   ├── Mamba_MT2D_Predicted.py                 # Mamba network prediction and inversion visualization
+&nbsp;   │   │
+&nbsp;   │   ├── Mamba_MT2D_ModeTrain.py                 # Mamba training with different input modes (TE, TM, and TE+TM)
+&nbsp;   │   ├── Mamba_MT2D_ModePredicted.py             # Inversion evaluation under different input modes
+&nbsp;   │   │
+&nbsp;   │   ├── Mamba_MT2D_NoisyTrain.py                # Mamba network training with noisy MT data
+&nbsp;   │   ├── Mamba_MT2D_NoisyPredicted.py            # Inversion evaluation under noisy conditions
+&nbsp;   │   │
+&nbsp;   │   ├── Trans_MT2D_Inversion.py                 # Transformer-based 2D MT inversion network architecture
+&nbsp;   │   ├── Trans_MT2D_Train.py                     # Transformer network training script
+&nbsp;   │   ├── Trans_MT2D_Predicted.py                 # Transformer network prediction and inversion visualization
+&nbsp;   │   │
+&nbsp;   │   ├── UNet_MT2D_Inversion.py                  # U-Net-based 2D MT inversion network architecture
+&nbsp;   │   ├── UNet_MT2D_Train.py                      # U-Net network training script
+&nbsp;   │   ├── UNet_MT2D_Predicted.py                  # U-Net network prediction and inversion visualization
+&nbsp;   │   │
+&nbsp;   │   ├── SSIM_Distribution_Plot.py               # SSIM distribution comparison of three networks
+&nbsp;   │   ├── Export_SSIM_Advantage_Excel.py          # Export ranked SSIM advantages of Mamba to Excel
+&nbsp;   │   └── Utilities.py                            # Data loading and normalization utilities
+&nbsp;   │
+&nbsp;   ├── Training_dataset/                          # Synthetic dataset generation and forward modeling
+&nbsp;   │   │
+&nbsp;   │   ├── Gaussian_Random_Fields.py               # Gaussian random field generation for 2D resistivity models
+&nbsp;   │   ├── MT2D_FDM.py                             # 2D MT finite-difference forward modeling
+&nbsp;   │   ├── MT2D_Model.py                           # 2D MT forward modeling and parallel computation
+&nbsp;   │   ├── Generate_Noisy_Dataset.py               # Noisy dataset generation for TM-mode observations
+&nbsp;   │   ├── Validate_Classic_1D_Models.py           # Validation of 2D FDM against 1D analytical solutions
+&nbsp;   │   ├── MT_Validation_1DForward.m               # Visualization of H-type and K-type model validation
+&nbsp;   │   ├── Model_Plot.py                           # Visualization of resistivity models and MT responses
+&nbsp;   │   └── Draw_2D_ResistivityModel.m              # Export resistivity models to Tecplot format
+&nbsp;   │
+&nbsp;   └── README.md                                    # Project description and user guide
 
 
 
