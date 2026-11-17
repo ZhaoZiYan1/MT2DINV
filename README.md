@@ -205,8 +205,6 @@
 
 
 
-
-
 \######## Notes
 
 &nbsp;     --The Mamba-based 2D MT inversion method is the primary focus of this repository.
